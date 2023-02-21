@@ -35,7 +35,7 @@ On your terminal, run the command
 ./ngrok http 4141
 ```
 The link you get as the forwarding value after running the above command i.e the link highlighted in the image below will also be used.
-![](https://github.com/Makinates/anotheratlantis/blob/main/Images/Screenshot%20from%202022-12-07%2010-39-01.png)
+![](https://github.com/Omolade11/atlantis-setup/blob/main/Images/Screenshot%20from%202022-12-07%2010-39-01.png)
 
 ### Webhook Setup
 Now, go to the settings of your repository and create a webhook then do the following:
@@ -44,8 +44,8 @@ Now, go to the settings of your repository and create a webhook then do the foll
 3. under secrets, put the random secret string that was generated
 4. select "Let me specify individual events" and specify the following events: issue comments, pull request reviews, pushes and pull requests.
 Just like the images below:
-![](https://github.com/Makinates/anotheratlantis/blob/main/Images/Screenshot%20from%202022-12-07%2010-46-01.png)
-![](https://github.com/Makinates/anotheratlantis/blob/main/Images/Screenshot%20from%202022-12-07%2010-46-13.png)
+![](https://github.com/Omolade11/atlantis-setup/blob/main/Images/Screenshot%202023-02-21%20at%2015.32.08.png)
+![](https://github.com/Omolade11/atlantis-setup/blob/main/Images/Screenshot%202023-02-21%20at%2015.32.37.png)
 
 Now, that all these have been set up, we will use the following script where we will specify the values we listed in the beginning.
 
